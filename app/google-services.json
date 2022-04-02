@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "943991337691",
+    "project_id": "e-commerce-app-batch-one",
+    "storage_bucket": "e-commerce-app-batch-one.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:943991337691:android:6f6c625426e19a2c4312fe",
+        "android_client_info": {
+          "package_name": "com.example.myadminappbatchone"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "943991337691-nt1cf6gvl42tgbficcm069jsmu70ds0b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDyog9R9fNQg8lBet9jHQWT7VRGhh8ghkY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "943991337691-nt1cf6gvl42tgbficcm069jsmu70ds0b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".AddProductFragment">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/productNameId"
+                android:hint="Enter your product name."
+                android:textSize="20dp"
+                android:textColor="@color/purple_500"></EditText>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/productPurchasePriceId"
+                android:hint="Enter your product purchase price name."
+                android:textSize="20dp"
+                android:textColor="@color/purple_500"></EditText>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/productSalePriceId"
+                android:hint="Enter your product sale price."
+                android:textSize="20dp"
+                android:textColor="@color/purple_500"></EditText>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/productDescriptionId"
+                android:hint="Enter your product description."
+                android:textSize="20dp"
+                android:textColor="@color/purple_500"></EditText>
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/spinnerId"></Spinner>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/dateBtnId"
+                android:textColor="@color/black"
+                android:text="Select Date"
+                android:textSize="20dp"
+                style="@style/Widget.AppCompat.Button.Borderless"></Button>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Select Image"
+                android:layout_gravity="center_horizontal"
+                style="@style/TextAppearance.AppCompat.Headline" />
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:id="@+id/productImageView"
+                android:scaleType="centerCrop"
+                android:src="@mipmap/ic_launcher"
+                android:layout_gravity="center_horizontal" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_margin="10dp"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/cameraBtnId"
+                    android:src="@drawable/ic_baseline_photo_camera_24"></ImageButton>
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/galleryBtnId"
+                    android:layout_gravity="center_horizontal"
+                    android:src="@drawable/ic_baseline_image_24"></ImageButton>
+            </LinearLayout>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/savaBtnId"
+                android:text="save"
+                android:layout_gravity="center_horizontal"></Button>
+        </LinearLayout>
+
+    </ScrollView>
+</layout>
